@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  align-items: center;
+  background: #1abc9c;
+  color: rgba(255,255,255,0.95);
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+}
+
+header h1{
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main{
+  padding: 2rem;
+}
+
+main h1{
+  font-size: 1.2rem;
+}
+
+main h1,
+main h2{
+  margin-bottom: 2rem;
+}
+
+main p{
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+#mapa,
+#mapa-marcadores{
+display: flex;
+  width: 500px;  
+  height: 700px;
+  margin-top: 20px;
+}
+
+#markers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px 1rem 0px 1rem;
+}
+
+
+
+.text-maps
+{
+    text-align: justify;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    letter-spacing: 1px;
+    width: 300px;
+    height: 650px;
+    margin-right: 8rem;
+    color: #fff;
+
+}
+
+#teste1
+{
+    width: 200px;
+    height: 50px;
+    background: #fff;
+}
+
+body
+{
+    background-color: #18a387;
+}
