@@ -44,7 +44,7 @@ main p{
 
 #mapa,
 #mapa-marcadores{
-display: flex;
+  display: flex;
   width: 500px;  
   height: 700px;
   margin-top: 20px;
@@ -54,7 +54,6 @@ display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 0px 1rem 0px 1rem;
 }
 
@@ -83,5 +82,5 @@ display: flex;
 
 body
 {
-    background-color: #18a387;
+    background-color: #696363;
 }
